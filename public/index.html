@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="{{ url_for('static', filename='img/ram-ico.png')}}" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>Tinchoram</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-white bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="/">💡 Tinchoram</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-1"></div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-10 note">
+            <h2 class="text-center">Martín Ramírez</h2>
+            <!--Media-->
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn btn-default">
+                        <a href="/"><img src="static/img/home.svg" width="23" height="23" class="d-inline-block align-top" alt=""></a>
+                    </button>
+                    <button class="btn btn-default">
+                        <a href="https://twitter.com/Tinchoram" target="_blank"><img src="static/img/twitter.svg" width="23" height="23" class="d-inline-block align-top" alt=""></a>
+                    </button>
+                    <button class="btn btn-default">
+                        <a href="https://github.com/tinchoram/" target="_blank"><img src="static/img/github.svg" width="23" height="23" class="d-inline-block align-top" alt=""></a>
+                    </button>
+                    <button class="btn btn-default">
+                        <a href="https://www.linkedin.com/in/rmartinramirez/" target="_blank"><img src="static/img/linkedin.svg" width="23" height="23" class="d-inline-block align-top" alt=""></a>
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <h6 class="text-center">💻 Software Developer | 🤟 Team SRE @etermax |
+                ️🧙‍♂️ Geek | 📸 Pics | 🌎 Carpe Diem</h6>
+            <hr>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-2 col-1"></div>
+
+        <!--Notes-->
+        <h4 class="text-center">Notes</h4>
+        <div class="col text-center mt-3">
+            <a href="/linux" type="button" class="btn btn-outline-warning m-1">🐧 Linux</a>
+            <a href="/python" type="button" class="btn btn-outline-warning m-1">🐍 Python</a>
+            <a href="/docker" type="button" class="btn btn-outline-secondary m-1">🐋 Docker (is coming)</a>
+            <a href="/kubernetes" type="button" class="btn btn-outline-secondary m-1">⚙ K8S (is coming)</a>
+        </div>
+
+        <!--Projects-->
+        <h4 class="text-center mt-3">Projects</h4>
+        <h6 class="text-center">A bit of code</h6>
+        <div class="col text-center mt-3">
+            <a href="https://github.com/tinchoram/bulkguasapp" target="_blank" type="button" class="btn btn-outline-success m-1">📩 Bulkguasapp</a>
+            <a href="https://github.com/tinchoram/scrapy-dondemiro" target="_blank" type="button" class="btn btn-outline-success m-1">👀 DondeMiro</a>
+            <a href="https://github.com/tinchoram/ram-blog" target="_blank" type="button" class="btn btn-outline-success m-1">🐍 Python Blog</a>
+        </div>
+
+        <div class="note-footer mt-5">
+            <p>@tinchoram 2022</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+html {
+    font-family: 'inter', sans-serif;
+}
+
+.note {
+    font-size: 1.2em;
+    text-align: justify;
+    text-justify:inter-word;
+}
+
+.note-footer {
+    font-size: 0.8em;
+    text-align: center;
+    color: gray;
+    /*padding: 0.5em;*/
+}
+
+.shell {
+    background-color: #272822;
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+.shell p {
+    color: #f8f8f2;
+    margin-bottom: 0;
+}
+
+.items p {
+    color: #636363;
+    font-size: 0.7em;
+    margin-bottom: 0;
+}
+
+hr {
+    height: 1px;
+    background-color: #6c757d;
+    margin: 1.0rem 0;
+}
